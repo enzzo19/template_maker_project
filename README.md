@@ -4,7 +4,7 @@ Welcome to the Template Maker Project! This repository provides a structured tem
 
 ## Overview
 
-This template follows a modular structure, making it easy to organize different aspects of your maker project. It includes directories for hardware, software, documentation, and more. Here's a brief overview of the main sections:
+This template follows a modular structure, making it easy to organize different aspects of your maker project. **It's because I alwways find some interesting projects, and the problem is the electronic is in a drive, the code in a page o repo, the 3d design in a video, so never the resources of a project is a end to end where you can step by step follow the guide and finaly with a custom product o project**, so It includes directories for hardware, software, documentation, and more. Here's a brief overview of the main sections:
 
 - **Hardware**: Includes directories for 3D printing, mechanical pieces, electrical components, and documentation related to hardware construction.
 - **Software**: Organized sections for different programming languages and tools used in your project, such as Arduino, C/C++, Python, ROS, and Unity.
@@ -34,7 +34,7 @@ This template is provided under the [GNU General Public License (GPL)](LICENSE).
 
 ## Acknowledgements
 
-We would like to thank the maker community for their inspiration and contributions to this project. Together, we can continue to build amazing creations and share knowledge with others.
+I'd like to thank the maker community for their inspiration and contributions in their projects Together, we can continue to build amazing creations and share knowledge with others.
 
 ---
 
