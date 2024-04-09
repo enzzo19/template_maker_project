@@ -1,0 +1,58 @@
+# Clang Format Configuration File
+
+# BasedOnStyle: LLVM
+#   - Sets the style to be based on the LLVM coding style guidelines
+#   - Can be modified to other styles such as Google, Chromium, etc.
+
+# IndentWidth: 4
+#   - Sets the number of spaces for each indentation level to 4
+#   - Can be adjusted to match the project's coding conventions
+
+# UseTab: Never
+#   - Ensures that spaces are used for indentation instead of tabs
+#   - Helps maintain consistency in indentation across different editors
+
+# TabWidth: 4
+#   - Sets the width of tab characters to 4 spaces
+#   - Consistent with the indentation width for clarity
+
+# AccessModifierOffset: -2
+#   - Sets the offset for access modifiers (e.g., public, private, protected)
+#   - Helps align access modifiers with the corresponding class or struct
+
+# AlignAfterOpenBracket: AlwaysBreak
+#   - Ensures that statements following an open bracket are always on a new line
+#   - Improves readability by separating code blocks more clearly
+
+# AllowShortIfStatementsOnASingleLine: false
+#   - Disables the option to have short if statements on a single line
+#   - Encourages more readable if statements with clear line breaks
+
+# ColumnLimit: 120
+#   - Sets the maximum line length to 120 characters
+#   - Helps prevent overly long lines, promoting readability and maintainability
+
+# BreakBeforeBraces: Allman
+#   - Sets the brace style to Allman (BSD) style
+#   - Encourages a consistent brace placement style for improved readability
+
+# AlignConsecutiveAssignments: true
+#   - Aligns consecutive assignments for improved code clarity
+#   - Helps maintain a consistent visual structure across multiple assignments
+
+# PointerAlignment: Left
+#   - Aligns pointers to the left
+#   - Promotes consistency and readability in pointer declarations
+
+# SpaceBeforeAssignmentOperators: true
+#   - Inserts a space before assignment operators (e.g., =, +=, -=)
+#   - Helps improve code readability by providing visual separation
+
+# IncludeCategories:
+#   - Categories for organizing #include directives
+#   - Helps group #include directives for better organization and readability
+#   - Can be customized based on project requirements
+
+# CommentPragmas: '^ IWYU pragma:'
+#   - Specifies a regular expression to identify comment pragmas
+#   - Helps identify and manage #include-what-you-use (IWYU) pragmas for code analysis

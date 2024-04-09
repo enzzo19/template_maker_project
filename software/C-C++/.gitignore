@@ -1,0 +1,35 @@
+# Ignore Rules for Git
+
+# Ignore compiled object files and libraries
+*.o
+*.a
+*.out
+
+# Ignore build directories
+/build/
+/.pio/
+
+# Ignore dependencies directory
+/lib/
+
+# Ignore configuration files
+/.vscode/
+/.idea/
+/.clangd/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore binary files
+*.bin
+*.elf
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore generated documentation
+/doc/
+/docs/
+
+# Ignore specific files or directories
+my_secret_key.txt

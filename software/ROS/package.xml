@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_ros_package</name>
+  <version>0.1.0</version>
+  <description>
+    A simple ROS package for demonstration purposes.
+  </description>
+  
+  <!-- Maintainer information -->
+  <maintainer email="user@example.com">John Doe</maintainer>
+  <maintainer email="user2@example.com">Jane Smith</maintainer>
+  
+  <!-- License information -->
+  <license>MIT</license>
+  
+  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+  
+  <!-- Exported libraries and executables -->
+  <export>
+    <cpp cflags="-Wall -Werror" />
+    <node name="my_node" pkg="my_ros_package" type="my_node" />
+  </export>
+</package>

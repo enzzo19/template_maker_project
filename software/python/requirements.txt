@@ -1,0 +1,22 @@
+# Requirements file for Python dependencies
+
+# Install specific package versions
+numpy==1.19.5        # NumPy library for numerical computations
+pandas==1.3.3        # Pandas library for data manipulation and analysis
+matplotlib==3.4.3    # Matplotlib library for data visualization
+
+# Install packages from PyPI
+requests             # Requests library for making HTTP requests
+beautifulsoup4       # BeautifulSoup library for web scraping
+
+# Install packages from version control systems
+git+https://github.com/user/repo.git@branch#egg=package_name  # Install a package from a GitHub repository
+svn+svn://svn.myproject.org/svn/MyProject/trunk#egg=package_name  # Install a package from an SVN repository
+
+# Install packages with specific extras
+scikit-learn[alldeps]    # Install scikit-learn with all optional dependencies
+tensorflow>=2.0          # Install TensorFlow version 2.0 or later
+
+# Install packages from local filesystem
+/path/to/local/package.tar.gz  # Install a package from a local tarball file
+/path/to/local/package          # Install a package from a local directory
